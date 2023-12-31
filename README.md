@@ -1,8 +1,8 @@
-# CSGO Config Backup
+# CS2 Config Backup
 
-This is my usual CSGO configuration setting, just for backup.
+This is my usual CS2 configuration setting, just for backup.
 
-## 预设置
+## Preset
 
 - Windows 10 **关闭 XBOX DVR**
 
@@ -26,20 +26,12 @@ Windows Registry Editor Version 5.00
 
 - Realtek 音频管理器**关闭耳机虚拟化**
 
-## 启动参数
+## Game Launch Parameters
 
-`-novid -nojoy -tickrate 128 +exec auto`
+`-fullscreen -high -console -nohltv -novid -nojoy -freq 144 -perfectworld`
 
-> `-perfectworld` 进入完美国服
->
-> `-refresh 144 -freq 144` 强制游戏的刷新率，取决于你的显示器刷新率
->
-> `+fps_max XXX` (1-999) 修改你的 FPS 上限
->
-> `-disable_d3d9ex` 这个参数可以修复 amd 显卡用户加载地图时候卡在 retrieving server info（接受服务器信息）很长一段时间的问题；但是，似乎会导致游戏开局几回合有轻微卡顿，以及 alt + tab 切屏后卡顿一段时间。有部分[社区用户报告](https://www.reddit.com/r/csgo/comments/kv0q2d/csgo_stuck_on_retrieving_server_info_after/)该选项可能会导致偶发闪退（为了避免闪退似乎需要将某个材质选项设置为低）
+## Load CFG
 
-## 加载 cfg
+将 cs2 文件夹内容复制到 `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\` 目录下。
 
-将 cfg 文件夹内容复制到 Steam\\userdata\\**Your_USER_ID**\\730\\local\\cfg 目录下。
-
-添加 `+exec auto` 启动参数或者在游戏内控制台输入 `exec auto`。
+`autoexec.cfg` 会在游戏启动时自动加载。
