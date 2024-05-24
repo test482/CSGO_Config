@@ -28,7 +28,7 @@ Windows Registry Editor Version 5.00
 
 ## Game Launch Parameters
 
-`-fullscreen -high -console -nohltv -novid -nojoy -freq 144 -perfectworld`
+`-fullscreen -high -console -nohltv -novid -nojoy -freq 165 -allow_third_party_software`
 
 ## Load CFG
 
