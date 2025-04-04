@@ -28,7 +28,9 @@ Windows Registry Editor Version 5.00
 
 ## Game Launch Parameters
 
-`-fullscreen -high -console -nohltv -novid -nojoy -freq 165 -allow_third_party_software`
+<https://developer.valvesoftware.com/wiki/Command_line_options#Source_2_Games>
+
+`-threads 8 -freq 165 -promptperfectworld -fullscreen -high -forcenovsync -console -nohltv -novid -nojoy -allow_third_party_software`
 
 ## Load CFG
 
