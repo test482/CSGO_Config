@@ -30,7 +30,15 @@ Windows Registry Editor Version 5.00
 
 <https://developer.valvesoftware.com/wiki/Command_line_options#Source_2_Games>
 
-`-threads 8 -freq 165 -promptperfectworld -fullscreen -high -forcenovsync -console -nohltv -novid -nojoy -allow_third_party_software`
+`-threads 8 -freq 165 -perfectworld -fullscreen -high -forcenovsync -console -nohltv -novid -nojoy -allow_third_party_software`
+
+<details>
+
+<summary>also my dota2 launch parameters</summary>
+
+`-high -novid -prewarm -map dota -vulkan -perfectworld +dota_minimap_disable_rightclick 1`
+
+</details>
 
 ## Load CFG
 
