@@ -36,7 +36,7 @@ Windows Registry Editor Version 5.00
 
 <summary>also my dota2 launch parameters</summary>
 
-`-high -novid -prewarm -map dota -vulkan -perfectworld +dota_minimap_disable_rightclick 1`
+`-high -novid -prewarm -map dota -worldwide -language schinese +dota_minimap_disable_rightclick 1 +dota_match_languages 2`
 
 </details>
 
